@@ -4,7 +4,7 @@
     "slug": "TravelSpot",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "/TravelSpot/assets/myImages/tierra.png",
     "scheme": "travelspot",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
@@ -22,8 +22,10 @@
       "predictiveBackGestureEnabled": false
     },
     "web": {
+      "bundler": "metro",
       "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/myImages/tierra.png",
+      "name": "TravelSpot 🌎"
     },
     "plugins": [
       "expo-router",
