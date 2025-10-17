@@ -1,6 +1,6 @@
 export const spotData = [
   {
-    id: 1,
+    id: "1",
     name: "Mar del Plata",
     image: "https://images.unsplash.com/photo-1523712999610-f77fbcfc3843?w=800",
     address: "Costa Atlántica, Buenos Aires, Argentina",
@@ -10,7 +10,7 @@ export const spotData = [
     location: "https://maps.google.com/?q=-38.0055,-57.5426",
   },
   {
-    id: 2,
+    id: "2",
     name: "Villa Carlos Paz",
     image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800",
     address: "Valle de Punilla, Córdoba, Argentina",
@@ -20,7 +20,7 @@ export const spotData = [
     location: "https://maps.google.com/?q=-31.4208,-64.4990",
   },
   {
-    id: 3,
+    id: "3",
     name: "Bariloche",
     image: "https://images.unsplash.com/photo-1589802829985-817e51171b92?w=800",
     address: "Patagonia, Río Negro, Argentina",
@@ -30,7 +30,7 @@ export const spotData = [
     location: "https://maps.google.com/?q=-41.1335,-71.3103",
   },
   {
-    id: 4,
+    id: "4",
     name: "Cancún",
     image: "https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86?w=800",
     address: "Quintana Roo, México",
@@ -40,7 +40,7 @@ export const spotData = [
     location: "https://maps.google.com/?q=21.1619,-86.8515",
   },
   {
-    id: 5,
+    id: "5",
     name: "Mendoza",
     image: "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=800",
     address: "Cuyo, Mendoza, Argentina",
@@ -60,7 +60,7 @@ export const spotData = [
     location: "https://maps.google.com/?q=-22.9068,-43.1729",
   },
   {
-    id: 7,
+    id: "7",
     name: "Punta del Este",
     image: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800",
     address: "Maldonado, Uruguay",
@@ -70,7 +70,7 @@ export const spotData = [
     location: "https://maps.google.com/?q=-34.9489,-54.9574",
   },
   {
-    id: 8,
+    id: "8",
     name: "Iguazú",
     image: "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?w=800",
     address: "Misiones, Argentina / Paraná, Brasil",
@@ -80,7 +80,7 @@ export const spotData = [
     location: "https://maps.google.com/?q=-25.6953,-54.4367",
   },
   {
-    id: 9,
+    id: "9",
     name: "Cartagena de Indias",
     image: "https://images.unsplash.com/photo-1568632234157-ce7aecd03d0d?w=800",
     address: "Bolívar, Colombia",
@@ -90,7 +90,7 @@ export const spotData = [
     location: "https://maps.google.com/?q=10.3910,-75.4794",
   },
   {
-    id: 10,
+    id: "10",
     name: "Ushuaia",
     image: "https://images.unsplash.com/photo-1608633444449-db2c0148b768?w=800",
     address: "Tierra del Fuego, Argentina",

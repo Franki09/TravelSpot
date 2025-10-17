@@ -3,8 +3,8 @@ import React from "react";
 
 export default function Favorites() {
   return (
-    <View>
-      <Text>favorites</Text>
+    <View className="bg-black h-full">
+      <Text className="text-white">favorites</Text>
     </View>
   );
 }

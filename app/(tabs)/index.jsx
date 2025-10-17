@@ -9,7 +9,7 @@ export default function Index() {
       <FlatList
         data={spotData}
         numColumns={2}
-        keyExtractor={(item) => item.id.toString()}
+        keyExtractor={(item) => item.id}
         columnWrapperStyle={{ gap: 16 }}
         contentContainerStyle={{
           paddingTop: 20,
@@ -27,7 +27,7 @@ export default function Index() {
           </View>
         )}
         renderItem={({ item }) => (
-          <Link href={""}>
+          <Link href={`../details/${item.id}`}>
             <View className="bg-red-500 w-40 h-full flex-1 rounded-lg overflow-hidden">
               <Image source={{ uri: item.image }} style={{ width: 160, height: 150 }} />
               <View className="p-2">

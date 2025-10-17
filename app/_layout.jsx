@@ -1,11 +1,26 @@
+import { Stack } from "expo-router";
 import { SafeAreaProvider } from "react-native-safe-area-context";
 import "../global.css";
-import { Stack } from "expo-router";
 
 export default function RootLayout() {
   return (
     <SafeAreaProvider>
-      <Stack screenOptions={{ headerShown: false }} />
+      <Stack
+        screenOptions={{
+          headerShown: false,
+          contentStyle: {
+            backgroundColor: "#121212",
+          },
+        }}
+      >
+        <Stack.Screen
+          name="details/[id]"
+          options={{
+            headerShown: true,
+            title: "Detalles del lugar",
+          }}
+        />
+      </Stack>
     </SafeAreaProvider>
   );
 }
