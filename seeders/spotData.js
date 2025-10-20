@@ -50,7 +50,7 @@ export const spotData = [
     location: "https://maps.google.com/?q=-32.8895,-68.8458",
   },
   {
-    id: 6,
+    id: "6",
     name: "Río de Janeiro",
     image: "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?w=800",
     address: "Estado de Río de Janeiro, Brasil",

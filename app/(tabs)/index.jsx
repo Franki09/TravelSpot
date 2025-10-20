@@ -18,8 +18,8 @@ export default function Index() {
         }}
         ListHeaderComponent={() => (
           <View className="mb-6">
-            <Text className="text-xl text-white mb-2 text-center">Bienvenido a TravelSpot 🌎</Text>
-            <Text className="text-white text-center">
+            <Text className="text-2xl font-semibold text-orange mb-2 text-center">Bienvenido a TravelSpot 🌎</Text>
+            <Text className="text-beige-light text-center">
               En TravelSpot podrás descubrir destinos turísticos increíbles con toda la información que necesitas: ubicación,
               clima, precios de hospedaje y mucho más. ¿Encontraste tu próximo destino? ¿O tal vez uno que ya visitaste y te
               encantó? Guárdalo en favoritos para planificar tu viaje más tarde.
@@ -27,12 +27,12 @@ export default function Index() {
           </View>
         )}
         renderItem={({ item }) => (
-          <Link href={`../details/${item.id}`}>
-            <View className="bg-red-500 w-40 h-full flex-1 rounded-lg overflow-hidden">
+          <Link href={`/details/${item.id}`}>
+            <View className="bg-beige border-beige-dark border-2 w-44 h-full flex-1 rounded-lg overflow-hidden">
               <Image source={{ uri: item.image }} style={{ width: 160, height: 150 }} />
               <View className="p-2">
-                <Text className="text-white font-semibold">{item.name}</Text>
-                <Text className="text-white text-xs">{item.address}</Text>
+                <Text className="text-green text-lg font-semibold mb-2">{item.name}</Text>
+                <Text className="text-green-dark text-xs">{item.address}</Text>
               </View>
             </View>
           </Link>
