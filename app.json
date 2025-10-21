@@ -4,28 +4,27 @@
     "slug": "TravelSpot",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "/TravelSpot/assets/myImages/tierra.png",
+    "icon": "./assets/myImages/tierra.png",
     "scheme": "travelspot",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourcompany.travelspot"
     },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/images/android-icon-foreground.png",
-        "backgroundImage": "./assets/images/android-icon-background.png",
-        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+        "foregroundImage": "./assets/myImages/tierra.png",
+        "backgroundColor": "#1a1a1a"
       },
+      "package": "com.yourcompany.travelspot",
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false
     },
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": "./assets/myImages/tierra.png",
-      "name": "TravelSpot 🌎"
+      "favicon": "./assets/myImages/tierra.png"
     },
     "plugins": [
       "expo-router",
